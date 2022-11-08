@@ -1,0 +1,3 @@
+
+next: - Melhorar a função de escolher as salas - Cada sala deve ter o seu estado.
+next: Melhorar performance da aplicação/reduzir requests á base de dados.

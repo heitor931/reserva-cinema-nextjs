@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.select {
+  width: 15rem;
+  font-family: inherit;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #380568;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: grab;
+  option {
+    &:hover {
+      cursor: pointer;
+    }
+    font-size: 1rem;
+  }
+}
+.title {
+  text-align: center;
+}
+.container h1 {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #380568;
+  color: white;
+}
